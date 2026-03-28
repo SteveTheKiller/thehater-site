@@ -1,0 +1,19 @@
+baseURL = "https://thehater.org/"
+languageCode = "en-us"
+title = "theHater.org"
+theme = "terminal"
+
+[params]
+  themeColor = "red"
+  fullWidthTheme = false
+  centerTheme = false
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 1

@@ -1,0 +1,33 @@
+.header__logo .logo,
+a .logo,
+.logo {
+  border: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  box-shadow: none !important;
+}
+
+.logo img {
+  border: none !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+
+.header__inner,
+.header__logo,
+.header__inner .header__logo a {
+  background: transparent !important;
+  border: none !important;
+}
+
+body {
+  --accent: #cc0000;
+}
+
+.tag,
+.post-title,
+.post-title a,
+.post-tags a,
+a {
+  color: #cc0000 !important;
+}
